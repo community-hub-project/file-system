@@ -1,0 +1,19 @@
+{
+    "name": "community-hub/file-system",
+    "description": "Simple library for reading and writing to the local disk.",
+    "autoload": {
+        "files": ["src/helpers.php"],
+        "psr-4": {
+            "CommunityHub\\FileSystem\\": "src/classes"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.6"
+    },
+    "scripts": {
+        "phpcs": "phpcs src"
+    }
+}
